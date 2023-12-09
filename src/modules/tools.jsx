@@ -3,7 +3,7 @@ function tools({icon, index}) {
 		<div className="caja" key={index}>
 			<img
 				className="img"
-				src={`/assets/logos/${icon.toLowerCase()}.svg`}
+				src={`assets/logos/${icon.toLowerCase()}.svg`}
 				alt = "NA"
 			/>
 		</div>

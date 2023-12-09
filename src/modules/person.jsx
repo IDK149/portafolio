@@ -5,7 +5,7 @@ function person(parameters) {
 			<div className="roles">
 				{parameters.colabs.map((roles, _) => {
 					return (
-						<img key = {_} className="img" src={`/assets/roles/${roles}.svg`} alt="NA" />
+						<img key = {_} className="img" src={`assets/roles/${roles}.svg`} alt="NA" />
 					)
 				})}
 			</div>

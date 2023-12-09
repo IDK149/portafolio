@@ -7,14 +7,14 @@ function projectCard(args) {
 	return (
 		<div className="slider">
 			<div className="padding" key={args.Key}>
-				<img className="flag" src={`/assets/states/${args.state}.svg`} alt={args.state} />
+				<img className="flag" src={`assets/states/${args.state}.svg`} alt={args.state} />
 				<div className="container">
 					<div className="text_3dmodel">
 						<div className="model_tools">
 							<div className="model">
 								<model-viewer
 									className="glb_file"
-									src={"/assets/models/".concat(args.model)}
+									src={"assets/models/".concat(args.model)}
 									camera-controls>
 								</model-viewer>
 							</div>
